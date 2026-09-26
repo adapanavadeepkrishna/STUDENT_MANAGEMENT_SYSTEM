@@ -1,0 +1,17 @@
+<form method="POST">
+    {% csrf_token %}
+
+    Roll Number:
+    <input type="number" name="roll"><br><br>
+
+    Name:
+    <input type="text" name="name"><br><br>
+
+    Age:
+    <input type="number" name="age"><br><br>
+
+    Course:
+    <input type="text" name="course"><br><br>
+
+    <input type="submit" value="Add Student">
+</form>
